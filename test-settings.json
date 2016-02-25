@@ -1,0 +1,8 @@
+{
+  "private": {
+    "someprivatekey": "someprivateval"
+  },
+  "public": {
+    "somepublickey": "somepublicval"
+  }
+}
