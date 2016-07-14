@@ -1,6 +1,6 @@
 Package.describe({
   name: 'appworkshop:settings-override-with-db',
-  version: '1.0.2',
+  version: '1.0.3',
   // Brief, one-line summary of the package.
   summary: 'Allow override of Meteor.settings with DB.',
   // URL to the Git repository containing the source code for this package.
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.use('ground:db@0.3.12');
   var path = Npm.require('path');
-  api.addFiles(path.join('lib','deeply','nested','to','load','first','appworkshop:settings-override-with-db.js'), ['client','server']);
+  api.addFiles(path.join('lib','appworkshop:settings-override-with-db.js'), ['client','server']);
   api.export('GetMeteorSettingsValue');
   api.export('Meteor_Settings_Override');
 });
