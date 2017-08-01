@@ -3,7 +3,7 @@
 Allow your own Meteor.settings to be "overridden" using values from a database collection.
 
 ```
-meteor add appworkshop:settings-override-with-db
+meteor add appworkshop_settings-override-with-db
 ```
 
 This package does ***NOT*** attempt to clobber ```Meteor.settings```. Instead, it provides a function call, ```GetMeteorSettingsValue(key)```. It will return the value in the database if found, otherwise it will fall back to the value from Meteor.settings (i.e. settings.json).
