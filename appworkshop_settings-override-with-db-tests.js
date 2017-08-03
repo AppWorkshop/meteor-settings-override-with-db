@@ -1,5 +1,5 @@
 // NOTE: run tests with:
-//  meteor test-packages appworkshop:settings-override-with-db --settings ./packages/appworkshop\:settings-override-with-db/test-settings.json
+//  meteor test-packages appworkshop:settings-override-with-db --settings ./packages/appworkshop_settings-override-with-db/test-settings.json
 
 // meteor method just for test use, to get server (private) settings
 Meteor.methods({
